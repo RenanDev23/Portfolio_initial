@@ -1,0 +1,84 @@
+/* <uniquifier>: Use a uniquifier for the class name
+   <weight>: Use a value from 400 to 700*/
+
+   /* .roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;400;700;
+  font-style: normal;
+}
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(./img/Wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    color:#fff;
+    background-color:rgba(113, 206, 243, 0.2);
+    border-radius: 50%;
+    padding: 30px;
+    margin: 100px;
+    width: 800px;
+    height: 200px;
+}
+
+h1 {
+    white-space: nowrap;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+}
+
+h1,
+#Gif {
+    display: flex;
+    margin-left: 40px;
+    align-items:center;
+}
+
+#Gif,
+ img{
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    border: 2px solid #00b3ff;
+}
+
+.gif2 img {
+    border: solid #fff;
+    border-radius: 15%;
+    margin-left: 60px;
+    width: 300px;
+    height: 300px;
+}
+
+.gif2,
+.p2 {
+    display: flex;
+    margin-left: 100px;
+}
+
+.p2 {
+    color:#fff;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid;
+    background-color:rgba(113, 206, 243, 0.2);
+    width: 400px;
+    height:250px;
+    border-radius: 20%;
+}
+
+p {
+    padding-top: 20px;
+    margin-left: 30px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
